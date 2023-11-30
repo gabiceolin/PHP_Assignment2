@@ -1,0 +1,147 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+p,a,li,input,th,td{
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+.row{
+  margin: 0px;
+}
+header > nav > div > a > img{
+  height: 70px;
+  width: auto;
+}
+footer{
+  padding: 5%;
+  background-color: #000;
+  color: #fff;
+  justify-content: center;
+ }
+footer > div:nth-child(1) > a > img{
+  width: 150px;
+  height: auto;
+
+}
+
+.masthead{
+  height: 80vh;
+  width: 100%;
+  background-image: url('../img/back.png');
+  background-size: cover;
+}
+.masthead div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.masthead div h1{
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+}
+.form-row div{
+  padding: 5%;
+}
+.form-row div form{
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.form-row div:nth-child(1){
+  background-color: #bdf3f3;
+  color: #000000;
+}
+.form-row div:nth-child(2){
+  background-color: rgb(228, 255, 192);
+  color: #000000;
+}
+.signin-masthead{
+  height: 50vh;
+}
+.signin-row{
+  padding: 5%;
+}
+.person-masthead{
+  width: 100%;
+  height: 50vh;
+ 
+}
+.person-masthead div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.person-masthead div h1{
+  color: #fff;
+  font-size: 2.5em;
+}
+.person-row{
+  padding: 5% 10%;
+}
+.success-row,
+.signin-masthead,
+.add-image-page{
+  background-image: url("../img/sample-image.jpg");
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.success-row div,
+.signin-masthead div,
+.add-image-page div{
+  padding: 5%;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 5px;
+  color: #fff;
+}
+.success-back-row{padding: 5%;}
+
+.copy-right {
+  color: white;
+  font-size:  13px;
+  margin: 20px;
+}
+
+.add div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add div h1{
+  font-size: 4em;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+
+.form-add{
+  padding: 5%;
+}
+.form-add h2{
+  font-size: 2.5em;
+  color: blue
+}
+.form-add .form-group{
+  margin: 15px 0px;
+  color: blue;
+}
+.submit-message{
+  text-align: center;
+  color: black;
+}
+
+.form-add .upload {
+  text-align: center;
+  margin: 15px 0px;
+  color: rgb(0, 0, 0);
+}
